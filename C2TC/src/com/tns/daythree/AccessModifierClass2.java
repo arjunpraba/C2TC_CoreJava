@@ -6,7 +6,7 @@ public class AccessModifierClass2 {
 		// TODO Auto-generated method stub
 		AccessModifier s=new AccessModifier();
 		s.a();
-		s.b();
+		//s.b();
 		s.c();
 		s.d();
 
