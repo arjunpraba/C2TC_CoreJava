@@ -4,7 +4,6 @@ public class FinalClassdemo {
 	void show() {
 		System.out.println("Final class cannot be inherited");
 	}
-}
 class FinalChildClass extends FinalClassDemo {
 }
 
@@ -14,4 +13,5 @@ public class FinalClassDemo {
 		FinalClassdemo f1 = new FinalClassdemo(); // Call show() method using object reference variable ab.
 		f1.show();
 	}
+}
 }
